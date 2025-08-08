@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 2nd Monthsary!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to bottom right, #ffc0cb, #ffe4e1);
+      color: #d6336c;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+
+    .letter {
+      max-width: 600px;
+      background: #fff0f5;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+      text-align: left;
+      display: none;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 1.2em;
+      border: none;
+      background-color: #ff69b4;
+      color: white;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ff1493;
+    }
+  </style>
+</head>
+<body>
+  <h1>Happy 2nd Monthsary, Baby! 💖</h1>
+
+  <button onclick="document.querySelector('.letter').style.display='block'; this.style.display='none';">
+    Click to open your letter 💌
+  </button>
+
+  <div class="letter">
+    <p>Hi Baby,</p>
+    <p>
+      It’s been two beautiful months since we started this journey together,
+      and every day with you has been filled with love, laughter, and the sweetest moments.
+      I just want to say thank you for being the most wonderful part of my life.
+    </p>
+    <p>
+      You make everything brighter, warmer, and so much better just by being you.
+      I love you endlessly and deeply, and I can't wait for many more months and years with you.
+    </p>
+    <p>
+      Happy 2nd Monthsary, my love. 💕
+    </p>
+    <p style="text-align: right;">— Love, Your Baby 💌</p>
+  </div>
+
+  <div class="footer">Forever and always 💞</div>
+</body>
+</html>
